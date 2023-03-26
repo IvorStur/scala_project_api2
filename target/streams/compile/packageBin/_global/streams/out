@@ -1,0 +1,27 @@
+[debug] Packaging C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\scala_project_2.13-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	AkkaHttpClient$.class
+[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\AkkaHttpClient$.class
+[debug] 	AkkaHttpClient$delayedInit$body.class
+[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\AkkaHttpClient$delayedInit$body.class
+[debug] 	AkkaHttpClient$Response$.class
+[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\AkkaHttpClient$Response$.class
+[debug] 	AkkaHttpClient$Response.class
+[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\AkkaHttpClient$Response.class
+[debug] 	AkkaHttpClient$UltraHttpRequest.class
+[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\AkkaHttpClient$UltraHttpRequest.class
+[debug] 	AkkaHttpClient.class
+[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\AkkaHttpClient.class
+[debug] 	application.conf
+[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\application.conf
+[debug] 	Main$.class
+[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\Main$.class
+[debug] 	Main$delayedInit$body.class
+[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\Main$delayedInit$body.class
+[debug] 	Main.class
+[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\Main.class
+[debug] 	Quote$.class
+[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\Quote$.class
+[debug] 	Quote.class
+[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\Quote.class
+[debug] Done packaging.
