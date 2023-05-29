@@ -1,2 +1,4 @@
-[debug] Acquiring lock on file C:\Users\MA\IdeaProjects\scala_project\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock ...
-[debug] Releasing lock on file C:\Users\MA\IdeaProjects\scala_project\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock.
+[debug] Acquiring lock on file C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock ...
+[warn] 6 deprecations (since 2.6.0); re-run with -deprecation for details
+[warn] one warning found
+[debug] Releasing lock on file C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock.

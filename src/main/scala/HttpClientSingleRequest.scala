@@ -3,10 +3,11 @@ import akka.http.scaladsl.Http
 import akka.http.scaladsl.model.{ContentTypes, HttpEntity, HttpMethod, HttpMethods, HttpRequest, RequestEntity}
 import akka.http.scaladsl.unmarshalling.Unmarshal
 
-import scala.concurrent.{ExecutionContextExecutor, Future}
+import scala.concurrent.{Await, ExecutionContextExecutor, Future}
 import spray.json._
 import DefaultJsonProtocol._
 import akka.stream.ActorMaterializer
+import scala.concurrent.duration.Duration
 
 object HttpClientSingleRequest extends App {
 
@@ -21,7 +22,7 @@ object HttpClientSingleRequest extends App {
   def request(method: HttpMethod, path: String = "", params: Option[String] = None, body: Option[RequestEntity] = None): HttpRequest =
     HttpRequest(
       method = method,
-      uri = s"http://localhost:900$path${params.map(p => s"?$p").getOrElse("")}",
+      uri = s"http://localhost:8080$path${params.map(p => s"?$p").getOrElse("")}",
       headers = Seq(),
       entity = body.getOrElse(HttpEntity.Empty)
     )
@@ -36,16 +37,17 @@ object HttpClientSingleRequest extends App {
       } yield Response(status, body)
   }
 
-  val runF = for {
-    _ <- request(HttpMethods.GET).exec.map(println)
-    _ <- request(HttpMethods.GET, path = "/hello").exec.map(println)
-    _ <- request(HttpMethods.GET, path = "/hello_to", params = Some("nameeee=Zoltan")).exec.map(println)
-    _ <- request(HttpMethods.GET, path = "/hello_to", params = Some("name=Zoltan")).exec.map(println)
-    response <- request(HttpMethods.GET, path = "/quote").exec
-    quote <- Future(response.body.parseJson.convertTo[Quote])
-  } yield quote
+  val runF = request(HttpMethods.GET, path = "/random")
+    .exec
+    .map(qu => println(qu.body))
+//    .map(response => response.body.parseJson.convertTo[Quote])
+//    .map(quote => println(s"Received quote: ${quote.content} by ${quote.author}"))
+    .recover{ case e => e.printStackTrace() } // opat na konci pouzivame recover aby sme zistili ci nieco nezlyhalo, tym ze som vsetky future naskladal cez mapy do "jednej" tak staci tento jeden recover
 
-  runF.foreach { quote =>
+  val runFun = request(HttpMethods.POST, path = "/hello")
+
+  Await.ready(runF, Duration.Inf)
+  /*runF.foreach { quote =>
     println(s"Received quote: ${quote.quoteText} by ${quote.author}")
-  }
+  }*/
 }

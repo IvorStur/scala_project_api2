@@ -1,27 +1,37 @@
-[debug] Packaging C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\scala_project_2.13-0.1.0-SNAPSHOT.jar ...
+[debug] Packaging C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\scala_project_api2_2.13-0.1.0-SNAPSHOT.jar ...
 [debug] Input file mappings:
-[debug] 	AkkaHttpClient$.class
-[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\AkkaHttpClient$.class
-[debug] 	AkkaHttpClient$delayedInit$body.class
-[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\AkkaHttpClient$delayedInit$body.class
-[debug] 	AkkaHttpClient$Response$.class
-[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\AkkaHttpClient$Response$.class
-[debug] 	AkkaHttpClient$Response.class
-[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\AkkaHttpClient$Response.class
-[debug] 	AkkaHttpClient$UltraHttpRequest.class
-[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\AkkaHttpClient$UltraHttpRequest.class
-[debug] 	AkkaHttpClient.class
-[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\AkkaHttpClient.class
 [debug] 	application.conf
-[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\application.conf
+[debug] 	  C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\classes\application.conf
+[debug] 	HttpClientSingleRequest$$anonfun$1.class
+[debug] 	  C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\classes\HttpClientSingleRequest$$anonfun$1.class
+[debug] 	HttpClientSingleRequest$.class
+[debug] 	  C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\classes\HttpClientSingleRequest$.class
+[debug] 	HttpClientSingleRequest$delayedInit$body.class
+[debug] 	  C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\classes\HttpClientSingleRequest$delayedInit$body.class
+[debug] 	HttpClientSingleRequest$Response$.class
+[debug] 	  C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\classes\HttpClientSingleRequest$Response$.class
+[debug] 	HttpClientSingleRequest$Response.class
+[debug] 	  C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\classes\HttpClientSingleRequest$Response.class
+[debug] 	HttpClientSingleRequest$UltraHttpRequest.class
+[debug] 	  C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\classes\HttpClientSingleRequest$UltraHttpRequest.class
+[debug] 	HttpClientSingleRequest.class
+[debug] 	  C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\classes\HttpClientSingleRequest.class
+[debug] 	jebnema$.class
+[debug] 	  C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\classes\jebnema$.class
+[debug] 	jebnema$delayedInit$body.class
+[debug] 	  C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\classes\jebnema$delayedInit$body.class
+[debug] 	jebnema.class
+[debug] 	  C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\classes\jebnema.class
+[debug] 	Main$$anonfun$getQuote$4.class
+[debug] 	  C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\classes\Main$$anonfun$getQuote$4.class
 [debug] 	Main$.class
-[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\Main$.class
+[debug] 	  C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\classes\Main$.class
 [debug] 	Main$delayedInit$body.class
-[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\Main$delayedInit$body.class
+[debug] 	  C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\classes\Main$delayedInit$body.class
 [debug] 	Main.class
-[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\Main.class
+[debug] 	  C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\classes\Main.class
 [debug] 	Quote$.class
-[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\Quote$.class
+[debug] 	  C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\classes\Quote$.class
 [debug] 	Quote.class
-[debug] 	  C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes\Quote.class
+[debug] 	  C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\classes\Quote.class
 [debug] Done packaging.

@@ -1,2 +1,53 @@
-[debug] Created transactional ClassFileManager with tempDir = C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes.bak
-[debug] Removing the temporary directory used for backing up class files: C:\Users\MA\IdeaProjects\scala_project\target\scala-2.13\classes.bak
+[debug] Created transactional ClassFileManager with tempDir = C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\classes.bak
+[debug] About to delete class files:
+[debug] 	Quote.class
+[debug] 	Main$delayedInit$body.class
+[debug] 	HttpClientSingleRequest$$anonfun$1.class
+[debug] 	jebnema.class
+[debug] 	HttpClientSingleRequest$Response.class
+[debug] 	HttpClientSingleRequest$Response$.class
+[debug] 	Main.class
+[debug] 	HttpClientSingleRequest$delayedInit$body.class
+[debug] 	Quote$.class
+[debug] 	Main$.class
+[debug] 	jebnema$.class
+[debug] 	jebnema$delayedInit$body.class
+[debug] 	Main$$anonfun$getQuote$4.class
+[debug] 	HttpClientSingleRequest.class
+[debug] 	HttpClientSingleRequest$.class
+[debug] 	HttpClientSingleRequest$UltraHttpRequest.class
+[debug] We backup class files:
+[debug] 	Quote.class
+[debug] 	Main$delayedInit$body.class
+[debug] 	HttpClientSingleRequest$$anonfun$1.class
+[debug] 	jebnema.class
+[debug] 	HttpClientSingleRequest$Response.class
+[debug] 	HttpClientSingleRequest$Response$.class
+[debug] 	Main.class
+[debug] 	HttpClientSingleRequest$delayedInit$body.class
+[debug] 	Quote$.class
+[debug] 	Main$.class
+[debug] 	jebnema$.class
+[debug] 	jebnema$delayedInit$body.class
+[debug] 	Main$$anonfun$getQuote$4.class
+[debug] 	HttpClientSingleRequest.class
+[debug] 	HttpClientSingleRequest$.class
+[debug] 	HttpClientSingleRequest$UltraHttpRequest.class
+[debug] Registering generated classes:
+[debug] 	Quote.class
+[debug] 	Main$delayedInit$body.class
+[debug] 	HttpClientSingleRequest$$anonfun$1.class
+[debug] 	jebnema.class
+[debug] 	HttpClientSingleRequest$Response.class
+[debug] 	HttpClientSingleRequest$Response$.class
+[debug] 	Main.class
+[debug] 	HttpClientSingleRequest$delayedInit$body.class
+[debug] 	Quote$.class
+[debug] 	Main$.class
+[debug] 	jebnema$.class
+[debug] 	jebnema$delayedInit$body.class
+[debug] 	Main$$anonfun$getQuote$4.class
+[debug] 	HttpClientSingleRequest.class
+[debug] 	HttpClientSingleRequest$.class
+[debug] 	HttpClientSingleRequest$UltraHttpRequest.class
+[debug] Removing the temporary directory used for backing up class files: C:\Users\ivorc\OneDrive - Stredná priemyselná škola elektrotechnická\Scala\server-client\scala_project_api2\target\scala-2.13\classes.bak
