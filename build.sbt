@@ -14,6 +14,9 @@ lazy val root = project.in(file("."))
       // akka http
       "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
       "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
+      "com.typesafe.slick" %% "slick" % "3.4.1",
+      "org.slf4j" % "slf4j-nop" % "2.0.5", // For Slick logging
+      "org.xerial" % "sqlite-jdbc" % "3.40.1.0",
     )
   )
 
